@@ -16,7 +16,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Note\n
+        '### Note
+        
         * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
         * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
-        * Only thumbs up reactions will be counted as votes during the Heroku team's review.
+        * Only thumbs up reactions will be counted as votes during the Heroku team's review.'
