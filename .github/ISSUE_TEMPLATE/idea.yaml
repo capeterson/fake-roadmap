@@ -6,8 +6,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
+      label: I agree to follow this project's [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow this project's [Code of Conduct](https://example.com)
           required: true
   - type: textarea
     attributes:
