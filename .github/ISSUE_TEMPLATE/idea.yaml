@@ -13,14 +13,6 @@ body:
             required: true
           - label: I have read and accept the [Forward Looking Statement](http://investor.salesforce.com/about-us/investor/forward-looking-statements/) and [Salesforce Program Agreement](https://www.salesforce.com/company/program-agreement/)
             required: true
-  - type: markdown
-    attributes:
-      value: |
-        ### Note
-        
-        * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
-        * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
-        * Only thumbs up reactions will be counted as votes during the Heroku team's review.
   - type: input
     attributes:
       label: What service(s) is this request for?
@@ -33,3 +25,11 @@ body:
       render: markdown
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Note
+        
+        * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
+        * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
+        * Only thumbs up reactions will be counted as votes during the Heroku team's review.
