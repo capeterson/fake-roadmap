@@ -6,11 +6,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: I agree to follow this project's [Code of Conduct](https://example.com)
+      label: I agree to follow this project's Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
           required: true
-  - type: textarea
-    attributes:
-    label: What service(s) is this request for?
-    validations:
-      required: true
