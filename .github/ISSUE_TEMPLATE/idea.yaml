@@ -15,6 +15,7 @@ body:
             required: true
   - type: markdown
     attributes:
+      label: Please keep this note in-tact to encourage other commenting and voting on it to avoid "noise" comments
       value: |
         ### Note
         
