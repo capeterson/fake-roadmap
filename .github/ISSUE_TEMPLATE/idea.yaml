@@ -14,6 +14,7 @@ body:
   - type: checkboxes
     id: legal-terms
     attributes:
+      label: "Terms of Use"
       description: By submitting this issue, you affirm you have read and and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]().
       options:
         - label: I have read and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]()
