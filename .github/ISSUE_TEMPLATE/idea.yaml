@@ -3,7 +3,7 @@ description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
-- type: checkboxes
+ - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
