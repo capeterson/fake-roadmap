@@ -1,12 +1,3 @@
----
-name: 'Idea'
-about: Suggest a product enhancement idea! We'll review these as part of our ongoing roadmap planning process.
-title: "[service] [request]: describe request here"
-labels: Idea
-assignees: ''
----
-
-
 name: 🐞 Bug
 description: File a bug/issue
 title: "[BUG] <title>"
