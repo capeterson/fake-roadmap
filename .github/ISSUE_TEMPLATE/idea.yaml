@@ -1,13 +1,13 @@
-name: "🐞 Bug"
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: "Proposal"
+description: Suggest a product enhancement idea! We'll review these as part of our ongoing roadmap planning process.
+title: "[service] [request]: describe request here"
+labels: [Proposed, Triage]
 body:
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct]() and affirm you have read and accept the the [Forward Looking Statement]() and [Salesforce Program Agreement]()
       options:
           - label: I agree to follow this project's Code of Conduct
             required: true
