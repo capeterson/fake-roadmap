@@ -11,3 +11,10 @@ body:
       options:
           - label: I agree to follow this project's Code of Conduct
             required: true
+  - type: checkboxes
+    id: legal-terms
+    attributes:
+      description: By submitting this issue, you affirm you have read and and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]().
+      options:
+        - label: I have read and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]()
+          required: true
