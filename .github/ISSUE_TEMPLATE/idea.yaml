@@ -6,13 +6,11 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this project's [Code of Conduct](https://example.com)
           required: true
   - type: textarea
     attributes:
     label: What service(s) is this request for?
-    description: This could be dynos, Postgres, Connect, etc
     validations:
       required: true
