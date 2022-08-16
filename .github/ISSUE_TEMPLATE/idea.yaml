@@ -25,5 +25,5 @@ body:
     attributes:
       label: What service(s) is this request for?
       description: This could be dynos, Postgres, Connect, etc
-      validations:
-        required: true
+    validations:
+      required: true
