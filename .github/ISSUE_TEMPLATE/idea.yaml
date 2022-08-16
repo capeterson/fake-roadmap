@@ -25,6 +25,13 @@ body:
     attributes:
       label: What service(s) is this request for?
       description: This could be dynos, Postgres, Connect, etc
-      value: Please specify at least one service that would benefit
+      placeholder: Please specify at least one service that would benefit
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Tell us about what you're trying to solve. What challenges are you facing?
+      description: What's the impact of not having this impemented? The more information and context you can provide, the better we're able to understand it and work on solutions.
+      render: markdown
     validations:
       required: true
