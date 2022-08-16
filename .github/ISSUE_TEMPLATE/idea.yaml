@@ -1,9 +1,29 @@
+name: "🐛 Bug Report"
+description: Create a new ticket for a bug.
+title: "🐛 [BUG] - <title>"
+labels: [
+  "bug"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: input
+    id: reprod-url
+    attributes:
+
+
 name: 🐞 Bug
 description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
- - type: checkboxes
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
@@ -11,7 +31,7 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
- - type: checkboxes
+  - type: checkboxes
     id: legal-terms
     attributes:
       label: Legal Terms
@@ -19,18 +39,13 @@ body:
       options:
         - label: I have read and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]()
           required: true
-- type: markdown
-  attributes:
-    value: |
-      <!-- Please keep this note in place for easier management and review of ideas -->
-
-      ### Note
-
-      * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
-      * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
-      * Only thumbs up reactions will be counted as votes during the Heroku team's review.
-
-      <!-- Thank you for keeping this note -->
+  - type: markdown
+    attributes:
+      value: |
+        ### Note\n
+        * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
+        * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
+        * Only thumbs up reactions will be counted as votes during the Heroku team's review.
 - type: textarea
   attributes:
     label: **What service(s) is this request for?** 
