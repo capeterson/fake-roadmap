@@ -7,7 +7,7 @@ body:
     id: terms
     attributes:
       label: Required Terms
-      description: By submitting this issue you agree to follow our [Code of Conduct]() and affirm you have read and accept the the [Forward Looking Statement](http://investor.salesforce.com/about-us/investor/forward-looking-statements/) and [Salesforce Program Agreement](https://www.salesforce.com/company/program-agreement/)
+      description: You must agree to follow our [Code of Conduct](), [Forward Looking Statement](http://investor.salesforce.com/about-us/investor/forward-looking-statements/) and [Salesforce Program Agreement](https://www.salesforce.com/company/program-agreement/) to create proposals.
       options:
           - label: I agree to follow this project's [Code of Conduct](https://github.com/heroku/roadmap/blob/main/CODE_OF_CONDUCT.md)
             required: true
