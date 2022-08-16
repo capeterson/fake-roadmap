@@ -6,10 +6,17 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct]() and affirm you have read and accept the the [Forward Looking Statement]() and [Salesforce Program Agreement]()
+      label: Required Terms
+      description: By submitting this issue you agree to follow our [Code of Conduct]() and affirm you have read and accept the the [Forward Looking Statement]() and [Salesforce Program Agreement]()
       options:
-          - label: I agree to follow this project's Code of Conduct
+          - label: I agree to follow this project's [Code of Conduct]()
             required: true
           - label: I have read and accept the [Forward Looking Statement]() and [Salesforce Program Agreement]()
             required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Note\n
+        * Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue.
+        * Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request. 
+        * Only thumbs up reactions will be counted as votes during the Heroku team's review.
