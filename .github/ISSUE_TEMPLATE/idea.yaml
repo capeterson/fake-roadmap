@@ -27,6 +27,7 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: body
       value: |
         ### Note
         
